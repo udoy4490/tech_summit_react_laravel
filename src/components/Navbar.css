@@ -1,6 +1,6 @@
 nav{
     
-    background: #303031;
+    background: #1e2227;
     border-bottom: 1px solid rgba(128, 128, 128, 0.322);
 }
 
@@ -15,6 +15,7 @@ nav{
     display: inline;
     list-style: none;
     margin-left: 1rem;
+    font-size: 1.1rem;
     cursor: pointer;
 }
 

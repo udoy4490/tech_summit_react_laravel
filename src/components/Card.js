@@ -1,5 +1,5 @@
 import React from 'react'
-import card_image from "../images/card.jpg";
+import card_image from "../images/card.webp";
 import "./card.css"
 import GreenButton from './GreenButton';
 import Rating from './Rating';
