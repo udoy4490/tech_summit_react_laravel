@@ -1,0 +1,30 @@
+nav{
+    
+    background: #303031;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.nav_link > li{
+    display: inline;
+    list-style: none;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.nav_link > li:hover{
+    color: #bfc2c9;
+    transition: 0.1s ease-in-out;
+}
+
+.nav_brand > h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.green_button{
+    text-decoration: none;
+    color: inherit;
+    background: rgb(1, 117, 1);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: 0.15s ease-in;
+}
+
+.green_button:hover{
+        background: rgb(0, 94, 0);
+
+}
+
+.green_button:focus{
+    outline: 3px solid rgba(0, 255, 98, 0.438);
+    transition: none;
+}
