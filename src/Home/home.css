@@ -4,6 +4,13 @@
     grid-gap: 20px;
 }
 
+main > h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
 
 @media (max-width: 1400px) {
   .courses {
