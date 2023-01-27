@@ -21,13 +21,17 @@ body{
 }
 
 .text_yellow_gradient{
-        background: -webkit-linear-gradient(#f97316, #eab308);
+    background: -webkit-linear-gradient(#f97316, #eab308);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .text_pink{
     color: rgb(236 72 153);
+}
+
+.mt-5{
+  margin-top: 5rem;
 }
 
 .hidden{
@@ -41,4 +45,11 @@ body{
     opacity: 1;
     filter: blur(0);
     transform: translateX(-0%);
+}
+
+
+@media(prefers-redced-motion){
+  .hidden{
+    transition: none;
+  }
 }

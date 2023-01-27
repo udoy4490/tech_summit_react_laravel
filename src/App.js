@@ -1,10 +1,12 @@
+import { useEffect } from "react";
 import Home from "./Home/Home";
 
 
 function App() {
-  return (
-    <Home />
-  );
+
+  
+  
+  return <Home  />;
 }
 
 export default App;
