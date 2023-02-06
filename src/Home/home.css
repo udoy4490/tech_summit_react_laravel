@@ -17,7 +17,7 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: clamp(1rem , 2.4vw , 2.5rem);
   cursor: pointer;
 }
 
@@ -49,7 +49,7 @@
   grid-template-columns: repeat(4,1fr);
   grid-column-gap: 50px;
   grid-row-gap: 50px;
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding-top: 4rem;
 }

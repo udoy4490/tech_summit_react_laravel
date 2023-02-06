@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 import GreenButton from "../components/GreenButton";
 import ListCard from "../components/ListCard";
 import Navbar from "../components/Navbar";
@@ -87,6 +88,7 @@ function Home() {
           </div>
         </section>
       </main>
+      <Footer  />
     </>
   );
 }
