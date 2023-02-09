@@ -47,6 +47,15 @@ body{
     transform: translateX(-0%);
 }
 
+.home_title{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 700;
+  font-size: clamp(1rem , 2.4vw , 2.5rem);
+  cursor: pointer;
+}
+
 
 @media(prefers-redced-motion){
   .hidden{

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Card from "../components/Card";
+import CoursesSection from "../components/CoursesSection";
 import Footer from "../components/Footer";
 import GreenButton from "../components/GreenButton";
 import ListCard from "../components/ListCard";
@@ -36,19 +37,7 @@ function Home() {
           </div>
         </section>
         <section>
-          <h2 className="home_title">
-            🔥 <span className="text_yellow_gradient">Top Courses</span> 🔥
-          </h2>
-          <div className="courses">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-          </div>
+            <CoursesSection />
         </section>
         <section className="mt-5">
           <h2 className="home_title">Our Top Services</h2>
