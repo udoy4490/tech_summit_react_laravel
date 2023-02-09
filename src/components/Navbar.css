@@ -7,7 +7,8 @@ nav {
 }
 
 nav.open{
-  height: 300px;
+  height: 250px;
+
 }
 
 .nav {
@@ -58,21 +59,7 @@ nav.open{
     transition: all 0.3s ease-in-out;
 }
 
-.nav_switch:hover .span1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) rotate(45deg);
-}
-.nav_switch:hover .span2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) rotate(135deg);
-}
-.nav_switch:hover .span3{
-   opacity: 0;
-}
+
 
 .nav_switch.open .span1{
     position: absolute;
@@ -92,7 +79,18 @@ nav.open{
 
 .nav_links_collapsed{
   text-align: center;
+  padding-top: 1rem;
 }
+
+.nav_links_collapsed > a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+} 
+.nav_links_collapsed > a:hover{
+  color: #bfc2c9;
+  text-decoration: none;
+} 
 
 
 @media (max-width: 1650px) {

@@ -26,12 +26,10 @@ function Navbar() {
         </div>
       </div>
       <div className="nav_links_collapsed">
-        <h2>hello</h2>
-        <h2>hello</h2>
-        <h2>hello</h2>
-        <h2>hello</h2>
-        <h2>hello</h2>
-        <h2>hello</h2>
+        <a href="#"><h2>Home</h2></a>
+        <a href="#"><h2>Courses</h2></a>
+        <a href="#"><h2>About</h2></a>
+        <a href="#"><h2>Contact</h2></a>
       </div>
     </nav>
   );
