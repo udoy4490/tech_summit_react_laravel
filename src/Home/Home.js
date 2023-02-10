@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Card from "../components/Card";
 import CoursesSection from "../components/CoursesSection";
 import Footer from "../components/Footer";
 import GreenButton from "../components/GreenButton";

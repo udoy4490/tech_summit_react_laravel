@@ -30,6 +30,11 @@ nav.open{
   font-weight: 700;
 }
 
+.nav_link > li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .nav_link > li:hover {
   color: #bfc2c9;
   transition: 0.1s ease-in-out;
