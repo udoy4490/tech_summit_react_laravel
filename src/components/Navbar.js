@@ -10,7 +10,6 @@ function Navbar() {
         <div className="nav_brand ">
           <h3 onClick={()=> navigate('/')}>Tech summit 🚀</h3>
         </div>
-
         <div
           className={`nav_switch ${navState ? "open" : ""}`}
           onClick={() => setNavState(!navState)}
