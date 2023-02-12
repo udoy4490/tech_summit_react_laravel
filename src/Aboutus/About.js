@@ -1,7 +1,7 @@
-import React from 'react'
-import Footer from '../components/Footer';
-import GreenButton from '../components/GreenButton';
-import Navbar from '../components/Navbar';
+import React from "react";
+import Footer from "../components/Footer";
+import GreenButton from "../components/GreenButton";
+import Navbar from "../components/Navbar";
 import "./about.css";
 function About() {
   return (
@@ -18,8 +18,7 @@ function About() {
             bridge the tech skills gap.
           </p>
           <div className="aboutus_button">
-
-          <GreenButton link="#" text="View More" />
+            <GreenButton link="/courses" text="Contact Us" />
           </div>
         </section>
       </main>
@@ -28,4 +27,4 @@ function About() {
   );
 }
 
-export default About
+export default About;
