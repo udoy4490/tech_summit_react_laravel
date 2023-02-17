@@ -8,7 +8,7 @@ function Navbar() {
     <nav className={`${navState ? "open" : ""}`}>
       <div className="container nav">
         <div className="nav_brand ">
-          <h3 onClick={()=> navigate('/')}>Tech summit 🚀</h3>
+          <h3 onClick={() => navigate("/")}>Tech summit 🚀</h3>
         </div>
         <div
           className={`nav_switch ${navState ? "open" : ""}`}
@@ -23,7 +23,9 @@ function Navbar() {
             <li>
               <Link to="/courses">Courses</Link>
             </li>
-            <li>About Us</li>
+            <li>
+              <Link to="/about">About us</Link>
+            </li>
             <li>Contact Us</li>
           </ul>
         </div>
@@ -35,9 +37,10 @@ function Navbar() {
         <Link to="/courses">
           <h2>Courses</h2>
         </Link>
-        <a href="#">
-          <h2>About</h2>
-        </a>
+        <Link to="/about">
+          <h2>About us</h2>
+        </Link>
+
         <a href="#">
           <h2>Contact</h2>
         </a>

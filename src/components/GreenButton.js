@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./greenbutton.css";
 
 function GreenButton({link,text}) {
   return (
-        <a href={link} className='green_button'>
+        <Link to={link} className='green_button'>
             {text}
-        </a>
+        </Link>
   )
 }
 
